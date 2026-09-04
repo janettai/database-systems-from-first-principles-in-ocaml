@@ -1,0 +1,14 @@
+[book]
+title = "Database Systems from First Principles in OCaml"
+description = "Build a tiny relational database engine progressively in OCaml."
+language = "en"
+src = "tutorials"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+site-url = "/database-systems-from-first-principles-in-ocaml/"
+git-repository-url = "https://github.com/janettai/database-systems-from-first-principles-in-ocaml"
+edit-url-template = "https://github.com/janettai/database-systems-from-first-principles-in-ocaml/edit/main/{path}"
